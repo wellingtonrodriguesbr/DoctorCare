@@ -1,0 +1,42 @@
+:root {
+  --white: #f7f9f9;
+  --black: #061800;
+  --gray: #384633;
+  --gray-light: #3e3e3e;
+  --green: #00856f;
+  --green-light: #dce9e2;
+  --green-hover: #00453a;
+  --beige: #fffaf1;
+}
+
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.gray-light {
+  color: var(--gray-light);
+}
+
+.green {
+  color: var(--green);
+}
+
+.green-light {
+  color: var(--green-light);
+}
+
+.green-hover {
+  color: var(--green-hover);
+}
+
+.beige {
+  color: var(--beige);
+}

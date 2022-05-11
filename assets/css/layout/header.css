@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--green-light);
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-links a {
+  color: var(--green);
+}
+
+.nav-menu button {
+  text-transform: uppercase;
+}

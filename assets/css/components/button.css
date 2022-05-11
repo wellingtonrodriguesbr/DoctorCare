@@ -1,0 +1,26 @@
+.button {
+  width: 16.43rem;
+  height: 3.25rem;
+  border-radius: 1.625rem;
+  color: var(--white);
+  background-color: var(--green);
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--green-hover);
+}
+
+.outlined {
+  width: 11.875rem;
+  height: 2.375rem;
+  border-radius: 1.625rem;
+  color: var(--green);
+  border: 1px solid var(--green);
+  transition: 0.3s;
+}
+
+.outlined:hover {
+  border-color: var(--green-hover);
+  color: var(--green-hover);
+}
