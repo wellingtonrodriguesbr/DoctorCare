@@ -17,6 +17,10 @@
 .hero-text button {
   margin-top: 2rem;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .hero-text p {

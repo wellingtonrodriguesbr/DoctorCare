@@ -16,6 +16,21 @@
 
 .nav-links a {
   color: var(--green);
+  display: block;
+  padding: 0.5rem 2rem;
+}
+
+.nav-links a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 1px;
+  background-color: var(--green);
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
 }
 
 .nav-menu button {

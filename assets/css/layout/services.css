@@ -1,0 +1,40 @@
+.services {
+  height: 1082px;
+  background-color: var(--white-secondary);
+}
+
+.services-title {
+  padding-top: 16.4375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services-title p {
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 1rem;
+}
+
+.services-title h2 {
+  max-width: 18ch;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+  padding-top: 4rem;
+}
+
+.service-card {
+  padding: 1.5rem;
+  background-color: var(--white-pure);
+  border-radius: 6px;
+}
+
+.service-card h4 {
+  margin: 1rem 0;
+}
