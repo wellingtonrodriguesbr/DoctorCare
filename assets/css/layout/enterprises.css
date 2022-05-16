@@ -1,0 +1,11 @@
+.enterprises {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.logos ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}

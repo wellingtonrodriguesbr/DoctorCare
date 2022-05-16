@@ -43,7 +43,7 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%) translateY(50%);
-  background-color: var(--beige);
+  background-color: var(--white-secondary);
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
 }
 
