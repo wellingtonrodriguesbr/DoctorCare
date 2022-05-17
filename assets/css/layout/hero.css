@@ -17,6 +17,7 @@
 .hero-text button {
   margin-top: 2rem;
   text-transform: uppercase;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
