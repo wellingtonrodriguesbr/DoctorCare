@@ -1,0 +1,32 @@
+.contact {
+  padding: 16.4375rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.contact h3 {
+  max-width: 15ch;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+
+.contact ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
