@@ -41,3 +41,10 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+
+@media (max-width: 820px) {
+  .nav-links,
+  .nav-menu button {
+    display: none;
+  }
+}

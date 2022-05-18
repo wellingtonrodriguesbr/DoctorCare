@@ -30,3 +30,10 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+
+@media (max-width: 820px) {
+  .contact {
+    grid-template-columns: 1fr;
+    padding: 6rem 2rem;
+  }
+}

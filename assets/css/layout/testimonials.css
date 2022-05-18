@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   padding-top: 16.4375rem;
+  position: relative;
 }
 
 .testimonials-text p {
@@ -23,6 +24,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  position: relative;
 }
 
 .testimonial {
@@ -50,4 +52,16 @@
 .testimonial-client img {
   border-radius: 50%;
   width: 42px;
+}
+
+@media (max-width: 820px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+    padding-top: 6rem;
+    margin-top: 60rem;
+  }
+
+  .testimonial {
+    margin-top: 2rem;
+  }
 }
