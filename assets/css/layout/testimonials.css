@@ -58,7 +58,6 @@
   .testimonials {
     grid-template-columns: 1fr;
     padding-top: 6rem;
-    margin-top: 60rem;
   }
 
   .testimonial {
